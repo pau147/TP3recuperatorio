@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Questrial&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat";
+  background-color: #023020;
+  color: #333;
+}
+
+header {                  
+  background-color: #f7ba12;
+  height:100px;
+  padding: 16px 20px;           
+}
+
+
+.logo {
+  width: 60px;             
+  height: 60px;            
+  border: 3px solid #333;  
+  border-radius: 50%;      
+  padding-top: 8px;         
+  padding-left: 15px;
+  font-size: 30px;
+  font-weight: bold;
+  color: #154d04;
+  background-color: #fcf7e0;  
+  cursor:pointer;
+  float:left;         
+}
+
+
+nav {
+  width: 671px;
+  background-color: #023020;
+  float:right;
+  margin-top: 20px;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+ul li {
+  display:inline-block;
+  list-style: none;
+  padding-right: 80px;
+  font-weight: bold;
+}
+
+ul li a {
+text-decoration: none;
+color: #fcf7e0;
+padding-left: 7px;
+}
+
+nav ul a:hover {
+  color: #f7ba12;
+}
+
+
+.galeria-index {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.galeria-index a img {
+  width: 180px;
+  border-radius: 12px;
+  cursor: pointer;
+} 
+
+h2 {
+  color:#023020; 
+  font-weight: bold;
+  margin-top: 20px;    
+  margin-bottom: 19.2px;
+}
+
+h3 {
+  color:#023020;
+  font-weight: bold;
+  margin-top: 20px;    
+  margin-bottom: 19.2px;
+}
+
+.plato {
+  width: 700px;
+  margin: 20px auto;
+  background-color:#fcf7e0; 
+  border-radius: 12px;
+  padding: 16px;
+}
+
+.foto-plato {
+  width: 100%;
+  border-radius: 12px;
+  margin-bottom: 16px;
+}
+
+.contenido {
+  padding: 0 16px 16px 16px;
+}
+
+.origen {
+  font-style: italic;
+  color: #666;
+  margin-bottom: 16px;
+}
+
+footer {
+  align-items: center;           
+  background: #f7ba12;
+  color:#fcf7e0; 
+  padding: 16px 20px;
+}
+
+.logo-footer {
+  width: 80px;
+  border-radius: 6px;
+}
+
+.center-text-footer {
+    padding-left: 800px;
+    font-weight: bold;
+    color: #023020 ;
+    font-size: 20px;
+    float:center;
+    margin-inline: ;
+
+}
+
+.right-text-footer {
+    padding-left: 1700px;
+    font-weight: bold;
+    color: #023020 ;
+    font-size: 20px;
+
+}
+
+.item {
+  text-align: center;
+}
+
+.item img {
+  width: 150px; 
+  height: auto;
+  border-radius: 10px;
+  transition: transform 0.2s;
+  cursor: pointer;
+}
+
+.item img:hover {
+  transform: scale(1.03);
+}
+
+.item a {
+  text-decoration: none;
+
+}
+
+.item p {
+  margin-top: 0px;
+  margin-bottom: 15px;
+  font-weight: bold;
+  font-size: 20px;
+  color: #e0b300;
+}
+
